@@ -8,8 +8,8 @@
         
         <h1>Gestion du personnel :</h1>
         
-        <a href="GestionEmploye.jsp" > Lister, modifier et effacer une fiche employé</a>
+        <a href="GestionEmploye.jsp" > Modifier une fiche employé </a>
         <br>
-        <a href="ModificationEmploye.jsp"> Modifier une fiche employé</a>
+        <a href="ModificationEmploye.jsp"> Lister, modifier et effacer une fiche employé</a>
                 
 <%@include file="Pied.jsp" %>  
