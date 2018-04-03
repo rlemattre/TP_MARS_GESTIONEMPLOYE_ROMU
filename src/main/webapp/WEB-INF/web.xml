@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="3.1" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd">
+    <servlet>
+        <servlet-name>EcritureEmploye</servlet-name>
+        <servlet-class>fr.romualdlemattre.mavenprojecthibernateromu02.EcritureEmploye</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>listeEmploye</servlet-name>
+        <servlet-class>fr.romualdlemattre.mavenprojecthibernateromu02.listeEmploye</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>ModificationEmploye</servlet-name>
+        <servlet-class>fr.romualdlemattre.mavenprojecthibernateromu02.ModificationEmploye</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>EffacementFiche</servlet-name>
+        <servlet-class>fr.romualdlemattre.mavenprojecthibernateromu02.EffacementFiche</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>EcritureEmploye</servlet-name>
+        <url-pattern>/EcritureEmploye</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>listeEmploye</servlet-name>
+        <url-pattern>/listeEmploye</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>ModificationEmploye</servlet-name>
+        <url-pattern>/ModificationEmploye</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>EffacementFiche</servlet-name>
+        <url-pattern>/EffacementFiche</url-pattern>
+    </servlet-mapping>
+    <session-config>
+        <session-timeout>
+            30
+        </session-timeout>
+    </session-config>
+</web-app>
